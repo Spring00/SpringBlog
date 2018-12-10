@@ -28,7 +28,7 @@
             <tr>
                 <td>主题: </td>
                 <td>
-                    <input name="title" type="text" id="title" style="width:750px;" />
+                    <input name="title" type="text" id="title" style="width:600px;" />
                 </td>
             </tr>
 
@@ -48,7 +48,7 @@
             </tr>
         </table>
 
-        <script id="editor" name="content" type="text/plain" style="width:750px;height:500px;"></script>
+        <script id="editor" name="content" type="text/plain" style="tab"></script>
         </div>
 
 
