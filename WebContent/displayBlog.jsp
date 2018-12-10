@@ -1,6 +1,5 @@
 <%@page import="java.text.SimpleDateFormat"%>
 <%@page import="com.li.blog.*"%>
-<%@page import="com.li.blog.Comment"%>
 <%@page import="java.util.List"%>
 <%@ page language="java" contentType="text/html; charset=UTF-8"%>
 
@@ -128,11 +127,11 @@
   <ul>		
   
   
-  			<% List recent=(List)request.getAttribute("blogs");
-    	for(int i=0;i<recent.size();i++){
-    		Blog blog2=(Blog)recent.get(i);
-    %>
-	    <li><a href="/SpringBlog/HomeServlet?method=get&id=<%=blog2.getId()%>"  target="_blank"><%=blog.getTitle() %></a></li>
+  			<%List recentBlogs=(List)request.getAttribute("blogs");
+			  for(int i=0;i<recentBlogs.size();i++){
+				Blog blog2=(Blog)recentBlogs.get(i);
+				%>
+	    <li><a href="/SpringBlog/HomeServlet?method=get&id=<%=blog2.getId()%>"  target="_blank"><%=blog2.getTitle() %></a></li>
        <%} %> 
        
        </ul>
