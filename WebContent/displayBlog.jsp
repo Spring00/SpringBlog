@@ -25,7 +25,7 @@
 	List list=(List)request.getAttribute("commentList");
 	
 %>
-<table id="tab">
+<table id="width=800">
   <tr>
     <td ><div align="center"><%=blog.getTitle()%></div></td>
    

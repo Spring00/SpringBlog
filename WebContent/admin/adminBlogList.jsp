@@ -39,8 +39,8 @@
 	<display:column property="title" sortable="true" title="主题"/>
 	<display:column property="category" title="分类" sortable="true"/>
 	<display:column title="操作">
-		<a href="http://120.76.56.202:8080/SpringBlog/PreEditBlogServlet?id=${b.id}"><img src="/SpringBlog/admin/images/edit.gif " border="0"/></a>
-		<a href="http://120.76.56.202:8080/SpringBlog/DeleteBlogServlet?id=${b.id}" onclick="javascript:return del()"><img src="/SpringBlog/admin/images/delete.gif" border="0"/></a>
+		<a href="http://120.76.56.202:80/SpringBlog/PreEditBlogServlet?id=${b.id}"><img src="/SpringBlog/admin/images/edit.gif " border="0"/></a>
+		<a href="http://120.76.56.202:80/SpringBlog/DeleteBlogServlet?id=${b.id}" onclick="javascript:return del()"><img src="/SpringBlog/admin/images/delete.gif" border="0"/></a>
 	</display:column>
 </display:table>
 			

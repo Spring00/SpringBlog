@@ -39,7 +39,7 @@ h1, h2, h3 {
 	margin-left: auto;
 	text-align: left;
 	padding: 0px;
-	width: 700px;
+	width: 1000px;
 	
 	background-color: #FFFFFF;
 	border: 1px solid #FFFFFF;
@@ -78,7 +78,7 @@ a#banner-img {
 
 #center {
 	float: left;
-	width: 500px;	
+	width: 800px;	
 	overflow: hidden;
 	}
 
