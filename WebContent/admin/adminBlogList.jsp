@@ -3,21 +3,7 @@
 <%@ page import="com.li.blog.Blog" %>
 <%@ include file="header.jsp"%>
 <%@ taglib uri="http://displaytag.sf.net" prefix="display" %>
-<style type="text/css" media="all">
-        @import url("/SpringBlog/admin/css/screen.css");
-</style>
 
-
-<script type="text/javascript">		
-			function del() {
-				var msg = "您真的确定要删除吗？\n\n请确认！";
-				if (confirm(msg)==true){
-						return true;
-					}else{
-						return false;
-					}
-				}
-</script>
 
 <style type="text/css" media="all">
         @import url("/SpringBlog/admin/css/screen.css");
