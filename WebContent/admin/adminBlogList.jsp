@@ -20,7 +20,7 @@
 </script>
 
 <h2>博文管理</h2>
-<display:table name="list" pagesize="3" class="its" requestURI="/SpringBlog/BlogServlet" id="b">
+<display:table name="list" pagesize="3" class="its" requestURI="/SpringBlog/AdminBlogListServlet" id="b">
 	<display:column property="id" title="编号" sortable="true"/>
 	<display:column property="title" sortable="true" title="主题"/>
 	<display:column property="category" title="分类" sortable="true"/>
