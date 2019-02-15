@@ -53,8 +53,8 @@
     </div>
   <% } %>
 
-	<!-- 产生分页的连接
-   	&nbsp; 1/2 &nbsp;<a href="tm?method=h&p=2">&gt;&gt;</a>-->
+	
+   	&nbsp; 1/2 &nbsp;<a href="tm?method=h&p=2">&gt;&gt;</a>
  <!-- end list -->	
 
 <br clear="all" />
